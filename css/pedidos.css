@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+body {
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+section#datos{
+    border: 1px solid #fff;
+    padding: 0 1rem;
+    margin: 1rem;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 10px #e0c3fc;
+}
+input#nombre{
+   width: 800px; 
+   height: 25px;
+}
+input#tel{
+    width: 800px;
+    height: 25px;
+}
+input#correo{
+    width: 800px;
+    height: 25px;
+}
+textarea#des{
+    width: 800px;
+    height: 55px;
+}
+section#sabor{
+    border: 1px solid #fff;
+    padding: 0 1rem;
+    margin: 1rem;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 10px #e0c3fc;
+}
+section#deco{
+    border: 1px solid #fff;
+    padding: 0 1rem;
+    margin: 1rem;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 10px #e0c3fc;
+}
+button.btn{
+    border: 1px solid #757BC8;
+    padding: 0 1rem;
+    margin: 1rem;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto; 
+    display: flex;
+    align-items: center;
+    width: 145px;
+    height: 30px;
+    text-align: center;
+    color: black;
+    
+}
+button.btn:hover{
+    pointer-events: stroke;
+    cursor: pointer;
+    color: #fff;
+    background-color: #757BC8;
+
+}
+
+

@@ -1,0 +1,108 @@
+html, body{
+    height: 100%;   
+    }
+
+    h1{
+        font-family: 'Poppins';
+        text-align: center;
+        
+    }
+    img{
+        display: block;
+        margin: auto;
+        width: 270px;
+        height: 270px;
+    }
+    h2{
+        font-family: 'Poppins';
+        text-align: center;
+    }
+    p{
+        font-family: 'Poppins';
+        text-align: center;
+    }
+    div#trabajos{
+        display: flex;
+        margin: auto;
+    }
+    img{
+        padding: 11px;
+    }
+    
+    img:hover{ 
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5)
+    }
+
+    footer {
+        margin-top: 30px;
+        background-color: #757BC8;
+        padding: 20px;
+        font-family: 'Poppins';
+        text-decoration: none;
+      }
+      
+      footer > ul {
+        display: flex;
+        justify-content: flex-end;
+      }
+      
+      footer > ul > li {
+        padding: 0 10px;
+      }
+      
+      footer > span {
+        margin-top: 5px;
+        display: flex;
+        justify-content: flex-end;
+        font-size: 0.9em;
+        color: #fff;
+      }
+      section#contacto{
+        border: 1px solid #fff;
+        padding: 0 1rem;
+        margin: 1rem;
+        width: 850px;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 5px 10px #e0c3fc;
+    }
+    div#horario{
+        margin: 5px;
+        padding: 10px;
+        text-align: center;
+    }
+    section#contacto:hover{
+        cursor: pointer;
+        pointer-events: visible;
+        background-color: #e0c3fc;
+    }
+    @media all and (min-width: 992px) {
+        .navbar .dropdown-menu-end
+        { 
+            right:0; left: auto;  
+        }
+            .navbar .nav-item .dropdown-menu
+        {  
+            display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0;  
+        }
+            .navbar .nav-item:hover .nav-link
+        { 
+            color:  #fff;  
+        }
+             .navbar .dropdown-menu.fade-down
+        { 
+            top:80%; transform: rotateX(-75deg); transform-origin: 0% 0%; 
+        }
+            .navbar .dropdown-menu.fade-up
+        { 
+            top:180%; 
+        }
+        .navbar .nav-item:hover .dropdown-menu
+        { 
+            transition: .3s; opacity:1; visibility:visible; 
+            top:100%; transform: rotateX(0deg); 
+        }
+    
+    }
+    
