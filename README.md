@@ -15,3 +15,6 @@ En este repositorio se encuentra la práctica de HTML del curso Launch X de Inno
 * El pastelero necesita tener la información de la cantidad de adornos que le quedan para hacer los pasteles.
 * El pastelero necesita una tabla donde aparezcan los pedidos que se han realizado con los datos del formulario.
 * La página debe tener información de la pastelería que es Dirección, Teléfono y horarios de atención.
+
+# Link 
+- https://andreachavezr.github.io/HTML_FrontEnd_Launch_X/
