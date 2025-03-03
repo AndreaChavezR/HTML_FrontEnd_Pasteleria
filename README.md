@@ -17,4 +17,4 @@ En este repositorio se encuentra la práctica de HTML del curso Launch X de Inno
 * La página debe tener información de la pastelería que es Dirección, Teléfono y horarios de atención.
 
 # Link 
-- https://andreachavezr.github.io/HTML_FrontEnd_Launch_X/
+- https://andreachavezr.github.io/HTML_FrontEnd_Pasteleria/
